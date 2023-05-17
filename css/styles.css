@@ -1,0 +1,159 @@
+/* Header styles */
+.header-line{
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 117, 0, 1);
+    border: 0;
+}
+
+.nav-link{
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.active{
+    width: 155px;
+    height: 39px;
+    background-color: #FF7500;
+    text-decoration: none;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Hero styles */
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background:  #FF7500;
+}
+
+.hero{
+    width: 1440px;
+    height: 488px;
+    background:  #252420;
+}
+
+.hero-heading{
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.hero-text{
+    width: 387px;
+    height: 96px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.python-book{
+    width: 510px;
+    height: 510px;
+    border-radius: 8px;
+}
+
+/* features styles */
+.feature-cards{
+    list-style: none;
+}
+
+.feature-img-wrapped{
+    width: 100px;
+    height: 100px;
+}
+
+.feature-title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #000;
+}
+
+.feature-text{
+    width: 314px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* promo styles */
+.promo{
+    width: 1100px;
+    height: 419px;
+    background-color: #252420;
+}
+
+.promo-content{
+    width: 440px;
+    height: 291px;
+}
+.promo-heading{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.5;
+    color: #fff;
+}
+
+.promo-text{
+    width: 440px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.promo-highlight{
+    color: #FF7500;
+}
+
+.promo-img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+/* footer styles */
+footer{
+    background-color: #f8f8f8;
+}
+
+.nav-social{
+    list-style: none;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    width: 224px;
+    height: 19px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #252420;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
