@@ -14,17 +14,19 @@
 </head>
 <body>
                     <!-- SITE HEADER -->
-    <header>
-        <p>Bosh sahifa - Akademnashr promo sayt</p>
-        <hr class="header-line">
-        <nav class="nav-items">
-            <img src="./images/logo.png" alt="logo">
-            <a href="#" class="nav-link">Bosh sahifa</a>
-            <a href="#" class="nav-link">Kitoblar</a>
-            <a href="#" class="nav-link">Aksiyalar</a>
-            <a href="#" class="nav-link">Kontaktlar</a>
-            <a href="#" class="nav-link active">Ro'yhatdan o'tish</a>
-        </nav>
+    <header class="site-header">
+            <a href="index.html">
+                <img src="./images/logo.png" alt="logo">
+            </a>
+            <nav class="nav-items">
+                <ul class="nav-links">
+                    <li><a href="#" class="nav-link">Bosh sahifa</a></li>
+                    <li><a href="#" class="nav-link">Kitoblar</a></li>
+                    <li><a href="#" class="nav-link">Aksiyalar</a></li>
+                    <li><a href="#" class="nav-link">Kontaktlar</a></li>
+                </ul>
+                <button type="button" class="active">Ro'yhatdan o'tish</button>
+            </nav>
     </header>
                     <!-- /SITE HEADER -->
 
@@ -32,13 +34,13 @@
     <main>
                              <!--Hero heading -->
         <section class="hero">
-            <div>
+            <div class="hero-content">
                 <hr class="orange-line">
                 <h1 class="hero-heading">Pythonda dasturlash <br> asoslari</h1>
                 <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
                 <button type="button" class="active">Buyurtma berish</button>
             </div>
-            <div>
+            <div class="hero-img">
                 <img src="./images/python-book.png" alt="Book" class="python-book">
             </div>
         </section>
@@ -47,6 +49,7 @@
         <!-- Feature section -->
 
         <section class="features">
+            <hr class="orange-line">
             <h1 class="features-heading">Nega aynan <br> Akademnashr</h1>
             <ul class="feature-cards">
                 <li>
@@ -81,7 +84,7 @@
                 <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
                 <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong> ni <strong class="promo-highlight">350 ming so’m</strong> ga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
             </div>
-                <img class="promo-img" src="./images/sale-img.png" alt="Chegirma">
+            <img class="promo-img" src="./images/sale-img.png" alt="Chegirma">
         </section>
     </main>
 
@@ -89,7 +92,7 @@
 
     <!-- Footer -->
     <footer>
-        <div>
+        <div class="footer-top">
             <a href="index.html">
                 <img src="./images/logo.png" alt="logo">
             </a>
@@ -99,7 +102,7 @@
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM17.568 8.16C17.388 10.056 16.608 14.664 16.212 16.788C16.044 17.688 15.708 17.988 15.396 18.024C14.7 18.084 14.172 17.568 13.5 17.124C12.444 16.428 11.844 15.996 10.824 15.324C9.636 14.544 10.404 14.112 11.088 13.416C11.268 13.236 14.34 10.44 14.4 10.188C14.412 10.152 14.412 10.044 14.34 9.972C14.268 9.912 14.172 9.936 14.088 9.948C13.98 9.972 12.3 11.088 9.024 13.296C8.544 13.62 8.112 13.788 7.728 13.776C7.296 13.764 6.48 13.536 5.868 13.332C5.112 13.092 4.524 12.96 4.572 12.54C4.596 12.324 4.896 12.108 5.46 11.88C8.964 10.356 11.292 9.348 12.456 8.868C15.792 7.476 16.476 7.236 16.932 7.236C17.028 7.236 17.256 7.26 17.4 7.38C17.52 7.476 17.556 7.608 17.568 7.704C17.556 7.776 17.58 7.992 17.568 8.16Z" fill="#252420"/>
-                        </svg>
+                    </svg>
                 </li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -112,17 +115,18 @@
                         </svg>
                 </li>
             </ul>
-
+        </div>
             <hr>
             <!-- Links -->
-            <ul class="nav-links">
+        <div class="footer-bottom">
+            <ul class="footer-links">
                 <li><a href="#">Bosh sahifa</a></li>
                 <li><a href="#">Kitoblar</a></li>
                 <li><a href="#">Aksiyalar</a></li>
                 <li><a href="#">Yangiliklar</a></li>
                 <li><a href="#">Kontaktlar</a></li>
             </ul>
-            <ul class="nav-links">
+            <ul class="footer-links">
                 <li><a href="#">Ilmiy nashrlar</a></li>
                 <li><a href="#">Ilmiy-ommabop nashrlar</a></li>
                 <li><a href="#">Ma'rifiy nashrlar</a></li>
@@ -131,12 +135,12 @@
                 <li><a href="#">Abituriyentlar uchun</a></li>
                 <li><a href="#">Bolalar uchun</a></li>
             </ul>
-            <ul class="nav-links">
+            <ul class="footer-links">
                 <li><a href="#">Ko'p so'raladigan savollar</a></li>
                 <li><a href="#">Yetkazib berish haqida</a></li>
                 <li><a href="#">To'lov usullari haqida</a></li>
             </ul>
-            <ul class="nav-links">
+            <ul class="footer-links">
                 <li><a href="#">Bo'sh ish o'rinlari</a></li>
                 <li><a href="#">Biz bilan bog'lanish</a></li>
                 <li><a href="#">Maxfiylik siyosati</a></li>
