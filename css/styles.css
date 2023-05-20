@@ -16,6 +16,17 @@ body{
     justify-content: space-between;
 }
 
+.logo-link{
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+    opacity: 0.8;
+}
+
+.logo-link:active{
+    opacity: 0.6;
+}
 .nav-items{
     display: flex;
     align-items: center;
@@ -24,6 +35,7 @@ body{
 .nav-links{
     display: flex;
     align-items: center;
+    list-style: none;
 }
 
 .nav-link{
@@ -34,6 +46,16 @@ body{
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #000;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.nav-link:hover{
+    color:#FF7500;
+}
+
+.nav-link:active{
+    opacity: 0.6;
 }
 
 .active{
@@ -47,6 +69,15 @@ body{
     font-size: 13px;
     font-weight: 400;
     color: #fff;
+    transition: background-color 0.4s ease, opacity 0.4s ease;
+}
+
+.active:hover{
+    opacity: 0.8;
+}
+
+.active:active{
+    opacity: 0.6;
 }
 
 /* Hero styles */
@@ -181,12 +212,29 @@ footer{
     justify-content: space-between;
 }
 
-.nav-social{
+.nav-social-list{
     list-style: none;
     display: flex;
     align-items: center;
 }
 
+.nav-social-item{
+    width: 24px;
+    height: 24px;;
+}
+
+.nav-social-item a{
+    color: #252420;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.nav-social-item a:hover{
+    color: #FF7500;
+}
+
+.nav-social-item a:active{
+    opacity: 0.6;
+}
 .footer-bottom{
     display: flex;
     align-items: center;
@@ -202,10 +250,19 @@ footer{
     height: 19px;
 }
 
-.footer-links a{
+.footer-link a{
     text-decoration: none;
     color: #252420;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer-link a:hover{
+    color: #FF7500;
+}
+
+.footer-link a:active{
+    opacity: 0.6;
 }
