@@ -2,6 +2,10 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+*:focus{
+    outline: 2px dotted #FF7500;
+}
+
 .header-line{
     width: 100%;
     height: 5px;
