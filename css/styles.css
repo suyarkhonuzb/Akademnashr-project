@@ -18,6 +18,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 5px solid #FF7500;
+    padding: 16px 170px;
 }
 
 .logo-link{
@@ -68,12 +70,17 @@ body{
     background-color: #FF7500;
     text-decoration: none;
     line-height: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    letter-spacing: 0.5px;
     font-size: 13px;
     font-weight: 400;
     color: #fff;
     transition: background-color 0.4s ease, opacity 0.4s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
 
 .active:hover{
@@ -102,9 +109,16 @@ body{
     background:  #252420;
 }
 
+.hero-content{
+    width: 387px;
+    height: 328px;
+    padding-top: 80px;
+    padding-left: 170px;
+    padding-bottom: 80px;
+}
+
 .hero-heading{
     font-size: 40px;
-    line-height: 48px;
     color: #fff;
     font-weight: 700;
     line-height: 120%;
@@ -125,6 +139,8 @@ body{
     width: 510px;
     height: 510px;
     border-radius: 8px;
+    padding-top: 40px;
+    padding-right:170px ;
 }
 
 /* features styles */
@@ -133,18 +149,25 @@ body{
     font-weight: 700;
     line-height: 86px;
     letter-spacing: 0.5px;
+    padding-top: 210px;
+    padding-left: 170px;
 }
 
 .feature-cards{
     list-style: none;
     display: flex;
     align-items: center;
-
+    padding-left: 170px;
+    padding-bottom: 210px;
 }
 
 .feature-img-wrapped{
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;background-color: #FF750033;
+    border-radius: 50%;
 }
 
 .feature-title{
@@ -171,11 +194,13 @@ body{
     width: 1100px;
     height: 419px;
     background-color: #252420;
+    border-radius: 12px;
 }
 
 .promo-content{
     width: 440px;
     height: 291px;
+    padding: 64px;
 }
 .promo-heading{
     font-size: 40px;
@@ -203,11 +228,13 @@ body{
     width: 440px;
     height: 440px;
     object-fit: cover;
+    padding: 64px;
 }
 
 /* footer styles */
 footer{
     background-color: #f8f8f8;
+    margin-top: 160px;
 }
 
 .footer-top{
@@ -247,6 +274,8 @@ footer{
 
 .footer-links{
     list-style: none;
+    /* padding-left: 170px; */
+    padding-right: 170px;
 }
 
 .footer-links li{
