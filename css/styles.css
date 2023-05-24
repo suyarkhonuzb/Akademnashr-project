@@ -36,12 +36,23 @@ body{
 .nav-items{
     display: flex;
     align-items: center;
+    margin: 0;
+}
+
+.nav-item{
+    margin-right: 32px;
+}
+
+.nav-item:last-child{
+    margin-right:32px;
 }
 
 .nav-links{
     display: flex;
     align-items: center;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-link{
@@ -81,6 +92,11 @@ body{
     justify-content: center;
     align-items: center;
     border: none;
+    margin-left: 32px;
+}
+
+.active:last-child{
+    margin-left: 0;
 }
 
 .active:hover{
@@ -92,29 +108,31 @@ body{
 }
 
 /* Hero styles */
-.hero{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 .orange-line{
     width: 80px;
     height: 3px;
     background:  #FF7500;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 24px;
+    display: inline-block;
 }
 
 .hero{
     width: 1440px;
     height: 488px;
     background:  #252420;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .hero-content{
     width: 387px;
     height: 328px;
-    padding-top: 80px;
-    padding-left: 170px;
-    padding-bottom: 80px;
+    padding:0;
+    margin: 0;
+    margin-left: 170px;
 }
 
 .hero-heading{
@@ -123,6 +141,9 @@ body{
     font-weight: 700;
     line-height: 120%;
     letter-spacing: 0.5px;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
 
 .hero-text{
@@ -133,6 +154,8 @@ body{
     line-height: 150%;
     letter-spacing: 0.5px;
     color: #fff;
+    margin: 0;
+    margin-bottom: 32px;
 }
 
 .python-book{
@@ -141,24 +164,44 @@ body{
     border-radius: 8px;
     padding-top: 40px;
     padding-right:170px ;
+    margin-top: 40px;
 }
 
 /* features styles */
-.features-heading{
+.features{
+    padding: 0;
+}
+
+.feature-heading{
+    margin-top: 210px;
+    margin-left: 170px;
+}
+
+.features-title{
     font-size: 72px;
     font-weight: 700;
     line-height: 86px;
     letter-spacing: 0.5px;
-    padding-top: 210px;
-    padding-left: 170px;
+    padding:0;
+    margin: 0;
 }
 
 .feature-cards{
     list-style: none;
     display: flex;
     align-items: center;
-    padding-left: 170px;
-    padding-bottom: 210px;
+    padding:0;
+    margin-left: 170px;
+    margin-top: 72px;
+}
+
+.feature-card{
+    margin: 0;
+    margin-right: 66px;
+}
+
+.feature-card:last-child{
+    margin-right: 0;
 }
 
 .feature-img-wrapped{
@@ -168,6 +211,7 @@ body{
     justify-content: center;
     align-items: center;background-color: #FF750033;
     border-radius: 50%;
+    margin-bottom: 32px;
 }
 
 .feature-title{
@@ -195,12 +239,15 @@ body{
     height: 419px;
     background-color: #252420;
     border-radius: 12px;
+    margin-top: 210px;
+    margin-left: 170px;
 }
 
 .promo-content{
     width: 440px;
     height: 291px;
-    padding: 64px;
+    padding-left: 64px;
+    margin: 0;
 }
 .promo-heading{
     font-size: 40px;
@@ -208,6 +255,7 @@ body{
     font-weight: 700;
     letter-spacing: 0.5;
     color: #fff;
+    margin-bottom: 24px;
 }
 
 .promo-text{
@@ -218,6 +266,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #fff;
+    margin-top: 12px;
 }
 
 .promo-highlight{
@@ -229,12 +278,18 @@ body{
     height: 440px;
     object-fit: cover;
     padding: 64px;
+    margin-bottom: 64px;
 }
 
 /* footer styles */
 footer{
     background-color: #f8f8f8;
     margin-top: 160px;
+    width: 1440px;
+    height: 507px;
+    padding-top: 56px;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 .footer-top{
@@ -247,11 +302,18 @@ footer{
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 .nav-social-item{
     width: 24px;
-    height: 24px;;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.nav-social-item:last-child{
+
+    margin-right: 0;
 }
 
 .nav-social-item a{
