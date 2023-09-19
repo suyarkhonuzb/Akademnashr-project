@@ -114,6 +114,7 @@ body{
 
 .active:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .active:active{
@@ -129,11 +130,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.hero-content{
-    width: 387px;
-    height: 328px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 78px;
 }
 
 .orange-line{
@@ -168,6 +167,9 @@ body{
 }
 
 .hero-img{
+    position: absolute;
+    right: 0;
+    top: 62px;
     width: 510px;
     height: 510px;
     border-radius: 8px;
@@ -177,6 +179,7 @@ body{
 /* features styles */
 .features{
     padding-top: 210px;
+    padding-bottom: 210px;
 }
 
 .features-title{
@@ -229,22 +232,22 @@ body{
 
 /* promo styles */
 .promo{
+    margin-top: 0;
     background-color: #252420;
     border-radius: 12px;
-    /* margin-top: 210px; */
-    /* margin-left: 170px; */
 }
 
 .promo-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    padding: 64px;
 }
 
 .promo-content{
     width: 440px;
     height: 291px;
-    /* padding-left: 64px; */
     margin: 0;
 }
 .promo-heading{
@@ -277,6 +280,9 @@ body{
 }
 
 .promo-img{
+    position: absolute;
+    right: 0;
+    bottom: 64px;
     width: 440px;
     height: 440px;
     object-fit: cover;
